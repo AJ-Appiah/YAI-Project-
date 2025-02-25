@@ -1,11 +1,9 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import LandingPage from "./pages/landingPage/landingPage";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <h1>Home Page</h1>, // Temporary placeholder
-  },
+  { path: "/", element: <LandingPage/> },
 ]);
 
 function App() {
