@@ -7,6 +7,8 @@ import Testimonials from "./testimonials";
 import Newsletter from "./newsLetter";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
+import AboutInnovator from "./aboutInnovator";
+import ContactUs from "./contactUs";
 
 const LandingPage = () => {
   return (
@@ -14,9 +16,11 @@ const LandingPage = () => {
       <Navbar />
       <HeroSection />
       <AboutUs />
+      <AboutInnovator />
       <WhyChooseUs />
       <FeaturedProducts />
       <Testimonials />
+      <ContactUs />
       <Newsletter />
       <Footer />
     </div>

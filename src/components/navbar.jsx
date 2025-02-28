@@ -74,14 +74,14 @@ const Navbar = () => {
           </li>
 
           {/* Spacer before Sign Up */}
-          <div className="ml-6">
+          {/* <div className="ml-6">
             <Link
               to="/signin"
               className="bg-[var(--color-cashew-green)] text-white px-5 py-2 rounded-md hover:bg-[var(--color-dark-variant)] transition"
             >
               Sign Up
             </Link>
-          </div>
+          </div> */}
         </ul>
       </div>
     </nav>
