@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
       description: "Our machines are built with premium materials, ensuring durability and efficiency.",
     },
     {
-      icon: <FaSeedling className="w-12 h-12 text-cashew-green" />,
+      icon: <FaSeedling className="w-12 h-12 text-cashew-orange" />,
       title: "Eco-Friendly & Sustainable",
       description: "Designed with sustainability in mind, minimizing environmental impact.",
     },
@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
       description: "We ensure quick and efficient delivery to meet farmers' needs.",
     },
     {
-      icon: <FaHandshake className="w-12 h-12 text-cashew-green" />,
+      icon: <FaHandshake className="w-12 h-12 text-cashew-orange" />,
       title: "Farmer-Centric Approach",
       description: "We prioritize farmers' needs, offering tailored solutions and excellent support.",
     },
