@@ -9,7 +9,7 @@ import PaymentMethods from "./pages/landingPage/shop/paymentMethods";
 import BuyNow from "./pages/landingPage/shop/buyNow";
 import BulkOrders from "./pages/landingPage/shop/bulkOrders";
 import Contact from "./pages/landingPage/contact/contact";
-
+import FAQs from "./pages/landingPage/faqs";
 
 const router = createBrowserRouter([
   { path: "/", element: <LandingPage/> },
@@ -19,8 +19,9 @@ const router = createBrowserRouter([
 {path: "/customization", element: <CustomizationOptions />},
 {path: "/payment-methods", element: <PaymentMethods />},
 { path: "/buy-now", element: <BuyNow /> },
-{ path: "bulk-orders", element: <BulkOrders /> },
-{ path: "contact", element: <Contact /> }
+{ path: "/bulk-orders", element: <BulkOrders /> },
+{ path: "/contact", element: <Contact /> },
+{ path: "/faqs", element: <FAQs /> },
 ]);
 
 function App() {

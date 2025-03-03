@@ -39,7 +39,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.5 }}
           >
             <Link 
-              to="/read-more"
+              to="/about"
               className="bg-yellow-500 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-yellow-600 transition flex items-center w-max"
             >
               READ MORE <span className="ml-2">→</span>

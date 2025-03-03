@@ -31,22 +31,17 @@ const Footer = () => {
           <h3 className="text-xl font-semibold">Explore</h3>
           <ul className="mt-3 space-y-2 text-gray-300">
             <li>
-              <a href="#" className="hover:text-orange-400 transition duration-200">About Us</a>
+              <a href="/about" className="hover:text-orange-400 transition duration-200">About Us</a>
             </li>
             <li>
-              <a href="#" className="hover:text-orange-400 transition duration-200">Technology</a>
+              <a href="/how-it-works" className="hover:text-orange-400 transition duration-200">Technology</a>
+            </li>
+           
+            <li>
+              <a href="/contact" className="hover:text-orange-400 transition duration-200">Contact Us</a>
             </li>
             <li>
-              <a href="#" className="hover:text-orange-400 transition duration-200">Processing Solutions</a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-orange-400 transition duration-200">Our Partners</a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-orange-400 transition duration-200">Contact Us</a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-orange-400 transition duration-200">FAQs</a>
+              <a href="/faqs" className="hover:text-orange-400 transition duration-200">FAQs</a>
             </li>
           </ul>
         </div>
